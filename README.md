@@ -1,29 +1,27 @@
 ![Logo](./public/logo.png)
 
-# Aerodash
-Dashboard template built with create-react-app, tailwind css and daisy UI components.
+## Daisy UI Dashboard Template - Aerodash
 
-Aerodash is a free template for dashboard project using tailwind CSS and react js. With the help of Dasisy UI, it comes with fully customizable and themable CSS. It also comes with redux toolkit configured.
+A free dashboard template using **Daisy UI** and react js. With the help of Daisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes. It also comes with **redux toolkit** configured.
 
 ![App Screenshot](./screenshot.jpg)
 
 ## Demo
 
-[DashWind Live preview ](https://github.com/facebook/create-react-app).
+[Aerodash Live preview](https://github.com/facebook/create-react-app).
 
 
 
 ## Features
 
-- Light/dark mode toggle
+- **Light/dark** mode toggle
 - Token based user authentication
-- Submenu support in sidebar
-- Store management using redux toolkit
-- Daisy UI components
-- Right sidebar for other content
-- Universal loader for API calls
-- New notification messages and other pages
-- React chart js 2 examples
+- **Submenu support** in sidebar
+- Store management using **redux toolkit**
+- **Daisy UI** components
+- **Right and left sidebar**, Universal loader, notifications and other components
+- React **chart js 2** examples
+- 
 ## Installation
 
 Go to project directory and run
