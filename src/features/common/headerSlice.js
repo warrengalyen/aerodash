@@ -5,17 +5,12 @@ export const headerSlice = createSlice({
     initialState: {
         pageTitle: "Home",  // current page title state management
         noOfNotifications : 15,  // no of unread notifications
-        rightDrawerIsOpen : false,   // right drawer state management for opening closing
         newNotificationMessage : "",  // message of notification to be shown
         newNotificationStatus : 1,   // to check the notification type -  success/ error/ info
     },
     reducers: {
         setPageTitle: (state, action) => {
             state.pageTitle = action.payload.title
-        },
-
-        setRightDrawerIsOpen: (state, action) => {
-            state.rightDrawerIsOpen = action.payload
         },
 
         removeNotificationMessage: (state, action) => {
@@ -30,6 +25,6 @@ export const headerSlice = createSlice({
     }
 })
 
-export const { setPageTitle, removeNotificationMessage, showNotification, setRightDrawerIsOpen } = headerSlice.actions
+export const { setPageTitle, removeNotificationMessage, showNotification } = headerSlice.actions
 
 export default headerSlice.reducer

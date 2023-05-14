@@ -1,8 +1,8 @@
 ![Logo](./public/logo.png)
 
-## Daisy UI Dashboard Template - Aerodash
+## Daisy UI Admin Dashboard Template - Aerodash
 
-A free dashboard template using **Daisy UI** and react js. With the help of Daisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes. It also comes with **redux toolkit** configured.
+A free admin dashboard template using **Daisy UI** and react js. With the help of Daisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes. It also comes with **redux toolkit** configured.
 
 ![App Screenshot](./screenshot.jpg)
 
