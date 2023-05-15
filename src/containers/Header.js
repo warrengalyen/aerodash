@@ -28,7 +28,7 @@ function Header(){
     }, [])
 
     const openNotification = () => {
-        dispatch(openRightDrawer({title : "Notifications", bodyType : RIGHT_DRAWER_TYPES.NOTIFICATION}))
+        dispatch(openRightDrawer({header : "Notifications", bodyType : RIGHT_DRAWER_TYPES.NOTIFICATION}))
     }
 
     function logoutUser(){
